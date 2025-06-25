@@ -17,3 +17,11 @@ npm run build
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+
+# Task
+
+## 6.25
+
+- 项目初始化搭建(Vue-cli)
