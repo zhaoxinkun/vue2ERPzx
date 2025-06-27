@@ -21,7 +21,7 @@ export function initRouter(targetArray, RouterData,) {
             name: item.name, // 路由的名称
             // 路由元信息
             meta: {
-                title: item.title
+                breadcrumb: item.title
             },
             // 路由对应的组件
             component: () => import(`@/views/Home/${item.component}/index.vue`),

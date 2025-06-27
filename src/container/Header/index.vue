@@ -1,12 +1,17 @@
 <script>
+import {breadCrumb} from "./index"
+
 export default {
-  name: "Header"
+  name: "Header",
+  components: {
+    breadCrumb
+  }
 }
 </script>
 
 <template>
   <div class="app-breadcrumb">
-    header
+    <bread-crumb></bread-crumb>
   </div>
 </template>
 
